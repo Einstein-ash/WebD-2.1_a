@@ -13,6 +13,7 @@ import CanvasLoader from "./Loader";
 export {
   Navbar,
   TabLinks,
+ 
   Hero,
   CanvasLoader,
   EMR_logo_canvas,

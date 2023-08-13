@@ -39,9 +39,9 @@ const Hero = () => {
 
         <div> */}
           <h1 className={`${styles.heroHeadText} text-white mt-30`}>
-            <span className='text-[#bfbfbff5]'>E</span>
+            <span className='text-[#bfbfbf]'>E</span>
             <span className='text-[#009f069e]'>M</span>
-            <span className='text-[#bfbfbff5]'>R</span>
+            <span className='text-[#bfbfbf]'>R</span>
           </h1>
           <p className={`${styles.heroSubText} mt-0 text-white-100 text-[25px] `}>
           Embedded System and Robotics Club <br className='sm:block hidden' />

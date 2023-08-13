@@ -9,6 +9,7 @@ import {
 } from "../components";
 
 import Contact from "../components/ContactUs/Contact";
+import Footer from "../components/Footer/FooterComp";
 import UpcomingWorkshops from "../components/UpcomingWorkshops/UpcomingWorkshops";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
             <UpcomingWorkshops />
             <Contact />
 
+            <Footer />
             <StarsCanvas />
           </div>
       </div>

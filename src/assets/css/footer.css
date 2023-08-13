@@ -1,0 +1,12 @@
+.footer_body{
+    background-color: #1f2937;
+    font-size: 1rem;
+}
+
+.footer_content > p {
+    font-size: 0.8rem;
+    
+    color :white;
+    padding : 10px;
+    
+}
