@@ -35,13 +35,14 @@ const services = [
    
   },
   {
-    title: "PROJECTS",
+    title: "Events",
     icon: emrlogo,
+    path: '/',
   },
   {
     title: "Blog",
     icon: emrlogo,
-    // path: '/Roger28-51-emr/blog',
+    path: '/blog',
   },
   {
     title: "GALLERY",

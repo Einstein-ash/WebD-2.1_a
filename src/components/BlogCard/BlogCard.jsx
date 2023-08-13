@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import ig from '../../assets/images/insta.png';
-import ThumbUpIcon from '@mui/icons-material/ThumbUp';
-import ThumbDownIcon from '@mui/icons-material/ThumbDown';
-import ThumbUpIcon2 from '@mui/icons-material/ThumbUpAltOutlined';
-import ThumbDownIcon2 from '@mui/icons-material/ThumbDownOutlined';
+// import ThumbUpIcon from '@mui/icons-material/ThumbUp';
+// import ThumbDownIcon from '@mui/icons-material/ThumbDown';
+// import ThumbUpIcon2 from '@mui/icons-material/ThumbUpAltOutlined';
+// import ThumbDownIcon2 from '@mui/icons-material/ThumbDownOutlined';
+
+
+
 import '../../assets/css/BlogCard.css';
 
 const BlogCard = ({ title, date, instagramLink, content }) => {
@@ -67,14 +70,14 @@ const BlogCard = ({ title, date, instagramLink, content }) => {
 
           <div className="blog-bottom">
             <button className="blog-button" onClick={handleLike} disabled={clicked_l}>
-              {clicked_l ? <ThumbUpIcon className="blog-l" /> : <ThumbUpIcon2 />}
+              {/* {clicked_l ? <ThumbUpIcon className="blog-l" /> : <ThumbUpIcon2 />} */}
             </button>
             <span>{likes}</span>
           </div>
 
           <div className="blog-bottom">
             <button className="blog-button" onClick={handleDislike} >
-              {clicked_d ? <ThumbDownIcon className="blog-d" /> : <ThumbDownIcon2 />}
+              {/* {clicked_d ? <ThumbDownIcon className="blog-d" /> : <ThumbDownIcon2 />} */}
             </button>
             <span>{dislikes}</span>
           </div>

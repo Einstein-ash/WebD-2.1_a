@@ -8,10 +8,12 @@ import {    Navbar, StarsCanvas ,
 
 import Home from './pages/Home';
 import GalleryComp from './pages/GalleryPage';
-// import workshop from './pages/SponsorPage';
+import SponsorPage from './components/Sponsor/Sponsor';
+import WorkshopPage from './pages/WorkshopPage'
 import TeamComp from './pages/TeamPage';
-// import Blog from './pages/Blog';
+import Blog from './pages/Blog';
 import ContactUs from './components/ContactUs/Contact'
+// import EventPage from './pages/eventpage';
 
 
 const App = () => {
@@ -25,11 +27,13 @@ const App = () => {
         <Route path="/" element={<Home />} />
 
         <Route path="/team" element={<TeamComp />} />
-        {/* <Route path="/Roger28-51-emr/sponser" element={<SponsorPage />} /> */}
+        <Route path="/sponser" element={<SponsorPage />} />
    
+        <Route path="/blog" element={<Blog />} />
+        {/* <Route path="/event" element={<EventPage />} /> */}
 
         <Route path="/gallery" element={<GalleryComp/>} />
-        {/* <Route path="/WebD-2.0/workshop" element={<workshop/>} /> */}
+        <Route path="/workshop" element={<WorkshopPage />} />
       </Routes>
 
     </BrowserRouter>

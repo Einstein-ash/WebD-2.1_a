@@ -2,7 +2,7 @@ import React from "react";
 import WorkshopHead from "../components/WorkshopPage/WorkshopHead";
 import CurrentWorkshop from "../components/WorkshopPage/CurrentWorkshop";
 
-function App() {
+function WorkshopPage() {
   return (
     <>
       <CurrentWorkshop />
@@ -11,4 +11,4 @@ function App() {
   );
 }
 
-export default App;
+export default WorkshopPage;
