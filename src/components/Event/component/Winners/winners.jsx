@@ -28,6 +28,7 @@ const settings = {
 
 function Winners({ list }) {
   return (
+    
     <div className="collection-wrapper">
       <div className="max-width collection">
         <div className="collection-title"> Winners</div>

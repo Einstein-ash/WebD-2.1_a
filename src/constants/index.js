@@ -37,7 +37,7 @@ const services = [
   {
     title: "Events",
     icon: emrlogo,
-    path: '/',
+    path: '/event',
   },
   {
     title: "Blog",

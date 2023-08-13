@@ -10,7 +10,7 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons"
 import img1 from "../../assets/images/ProfileImage/priyanshu - Priyanshu Narwaria.jpg";
 import img2 from "../../assets/images/ProfileImage/01F024EA-4C85-4C8A-AA2C-81A72E1159B5 - Priyanshi.jpeg";
 import img3 from "../../assets/images/ProfileImage/InShot_20230516_220552985 - 143_SUNIL RATHORE.jpg"
-import img4 from "../../assets/images/ProfileImage/IMG_9481 - KRITIKA.jpeg"
+import img4 from "../../assets/images/ProfileImage/IMG_9481 - KRITIKA.jpg"
 import img5 from "../../assets/images/ProfileImage/20220922_134905 - Nicky.jpg"
 import img6 from "../../assets/images/ProfileImage/Arpit_Image_square - ARPIT BHATNAGAR.jpg"
 import img7 from "../../assets/images/ProfileImage/PXL_20230202_044345959 - 5159_Ritesh_ecc9.jpg"
