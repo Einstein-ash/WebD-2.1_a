@@ -9,7 +9,7 @@ export const navLinks = [
    {
     id: "hero",
     title: "Home",
-    path : '/WebD-2.0/'
+    path : '/'
   },
   
   {
@@ -31,7 +31,7 @@ const services = [
   {
     title: "Workshops",
     icon: emrlogo,
-    path: '/WebD-2.0/workshop',
+    path: '/workshop',
    
   },
   {
@@ -46,18 +46,18 @@ const services = [
   {
     title: "GALLERY",
     icon: emrlogo,
-    path: '/WebD-2.0/gallery',
+    path: '/gallery',
     
   },
   {
     title: "TEAM",
     icon: emrlogo,
-    path: '/WebD-2.0/team',
+    path: '/team',
   },
   {
     title: "Sponser",
     icon: emrlogo,
-    path: '/WebD-2.0/sponser',
+    path: '/sponser',
   },
   {
     title: "SOON",
