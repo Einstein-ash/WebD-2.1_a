@@ -28,7 +28,7 @@ export default function Home() {
             <UpcomingWorkshops />
             {/* <Contact /> */}
 
-            <Footer />
+            {/* <Footer /> */}
             <StarsCanvas />
           </div>
       </div>
