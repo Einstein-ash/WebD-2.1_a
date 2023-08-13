@@ -26,7 +26,7 @@ export default function Home() {
         </div>
             <TabLinks />
             <UpcomingWorkshops />
-            <Contact />
+            {/* <Contact /> */}
 
             <Footer />
             <StarsCanvas />
