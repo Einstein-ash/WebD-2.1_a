@@ -3,7 +3,7 @@ import "../../assets/css/WorkshopPage.css";
 import image from "../../assets/images/WorkshopPage/currworkshopimg.jpg";
 export default function CurrentWorkshop() {
   const visible = true; // Change to false to remove current workshop Element...
-  const Gformlink = "https://www.youtube.com"; // Link to regeistration form
+  const Gformlink = ""; // Link to regeistration form
   return (
     visible && (
       <div className="current-workshop-container">
