@@ -26,6 +26,7 @@ const services = [
   {
     title: "TECH FEST",
     icon: emrlogo,
+    path: '/event',
   
   },
   {
@@ -56,9 +57,9 @@ const services = [
     path: '/team',
   },
   {
-    title: "Sponser",
+    title: "Sponsor",
     icon: emrlogo,
-    path: '/sponser',
+    path: '/sponsor',
   },
   {
     title: "SOON",
