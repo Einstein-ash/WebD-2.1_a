@@ -22,13 +22,13 @@ const App = () => {
 <StarsCanvas /> 
 
       <Routes>
-        <Route path="/WebD-2.0/" element={<Home />} />
+        <Route path="/" element={<Home />} />
 
-        <Route path="/WebD-2.0/team" element={<TeamComp />} />
+        <Route path="/team" element={<TeamComp />} />
         {/* <Route path="/Roger28-51-emr/sponser" element={<SponsorPage />} /> */}
    
 
-        <Route path="/WebD-2.0/gallery" element={<GalleryComp/>} />
+        <Route path="/gallery" element={<GalleryComp/>} />
         {/* <Route path="/WebD-2.0/workshop" element={<workshop/>} /> */}
       </Routes>
 
