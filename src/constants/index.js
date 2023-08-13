@@ -14,7 +14,7 @@ export const navLinks = [
   
   {
     id: "about",
-    title: "LINKS",
+    title: "Links",
   },
   {
     id: "contact",
@@ -37,7 +37,7 @@ const services = [
   {
     title: "Events",
     icon: emrlogo,
-    path: '/',
+    path: '/event',
   },
   {
     title: "Blog",
@@ -56,9 +56,9 @@ const services = [
     path: '/team',
   },
   {
-    title: "Sponser",
+    title: "Sponsor",
     icon: emrlogo,
-    path: '/sponser',
+    path: '/sponsor',
   },
   {
     title: "SOON",

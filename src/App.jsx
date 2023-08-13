@@ -12,6 +12,7 @@ import SponsorPage from './components/Sponsor/Sponsor';
 import WorkshopPage from './pages/WorkshopPage'
 import TeamComp from './pages/TeamPage';
 import Blog from './pages/Blog';
+// import Event from './pages/eventpage';
 import ContactUs from './components/ContactUs/Contact'
 // import EventPage from './pages/eventpage';
 
@@ -33,6 +34,7 @@ const App = () => {
         {/* <Route path="/event" element={<EventPage />} /> */}
 
         <Route path="/gallery" element={<GalleryComp/>} />
+        {/* <Route path="/event" element={<Event/>} /> */}
         <Route path="/workshop" element={<WorkshopPage />} />
       </Routes>
 
