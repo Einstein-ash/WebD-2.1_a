@@ -16,6 +16,8 @@ import img6 from "../../assets/images/ProfileImage/Arpit_Image_square - ARPIT BH
 import img7 from "../../assets/images/ProfileImage/PXL_20230202_044345959 - 5159_Ritesh_ecc9.jpg"
 import img8 from "../../assets/images/ProfileImage/anant_gwari.jpg"
 import img9 from "../../assets/images/ProfileImage/Deepan - Deepan Adak.jpg"
+import img10 from "../../assets/images/ProfileImage/Prashant_Rai.jpg"
+import img11 from "../../assets/images/ProfileImage/IMG_20230318_140731 - PI-02-012Gaurav.jpg"
 const cardData = [
   {
     "name": "Priyanshu Narwaria",
@@ -32,6 +34,15 @@ const cardData = [
     "github": "https://github.com/priyanshiRao",
     "image": img2,
     "role": "Vice President",
+  },
+  {
+    "name": "Deepan Adak",
+    "insta": "https://www.instagram.com/deepan_adak/",
+    "linkedin": "https://www.linkedin.com/in/deepan-adak/",
+    "github": "https://github.com/mr-prometheus",
+    "image": img9,
+    "role": "President",
+
   },
   {
     "name": "Sunil Singh Rathore ",
@@ -88,12 +99,21 @@ const cardData = [
 
   },
   {
-    "name": "Deepan Adak",
-    "insta": "https://www.instagram.com/deepan_adak/",
-    "linkedin": "https://www.linkedin.com/in/deepan-adak/",
-    "github": "https://github.com/mr-prometheus",
-    "image": img9,
-    "role": "President",
+    "name": "Prashant Rai ",
+    "insta": "https://www.instagram.com/prashantrai8423/",
+    "linkedin": "https://www.linkedin.com/in/prashant-rai-4a8a44216",
+    "github": "https://github.com/raisammer",
+    "image": img10,
+    "role": "Project Head",
+
+  },
+  {
+    "name": "Gaurav Mishra ",
+    "insta": "https://instagram.com/gauravv.png?igshid=MzNlNGNkZWQ4Mg==",
+    "linkedin": "https://www.linkedin.com/in/gaurav-mishra-a10a35224",
+    "github": "https://github.com/gauravmishra1263",
+    "image": img11,
+    "role": "Recent Tech Head",
 
   }
 
