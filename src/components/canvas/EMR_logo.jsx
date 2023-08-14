@@ -45,11 +45,11 @@ const EMR_logo = () => {
 
     <primitive
      object={logo.scene} 
-     scale={0.66} 
+     scale={1.4} 
     //  scale={0.7} 
 
     //  change position of logo 
-      position-y={-3}
+      position-y={-3.5}
       position-x={-4}
       //
 
