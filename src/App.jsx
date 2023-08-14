@@ -15,12 +15,12 @@ import Blog from './pages/Blog';
 // import Event from './pages/eventpage';
 import ContactUs from './components/ContactUs/Contact'
 // import EventPage from './pages/eventpage';
-
+import ScrollToTop from './ScrollToTop';
 
 const App = () => {
   return (
     <BrowserRouter>
-
+<ScrollToTop />
 <Navbar/>
 <StarsCanvas /> 
 
