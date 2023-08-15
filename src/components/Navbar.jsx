@@ -56,13 +56,16 @@ const Navbar = () => {
           </p>
         </Link>
 
+
         <ul className="list-none hidden sm:flex flex-row gap-10">
+        
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              } hover:text-white text-[18px] font-medium cursor-pointer `}
+
               onClick={() => {
                 setActive(nav.title);
                 handleButtonClick(nav.componentId);
@@ -96,7 +99,7 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(nav.title);
-                    handleButtonClick(nav.componentId);
+                    handleButtonClick("nav.componentId");
                   }}
                 >
                   <span>{nav.title}</span>
@@ -111,3 +114,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+

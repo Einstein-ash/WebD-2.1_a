@@ -9,7 +9,7 @@ import emailIcon from "../../assets/images/email.png"
 
 import githubIcon from "../../assets/images/github.png"
 import { emrlogo } from '../../assets';
-import { SectionWrapper } from "../../hoc";
+import { SectionWapper_contact } from "../../hoc";
 
 const Footer = () => {
  
@@ -95,4 +95,5 @@ const Footer = () => {
     </div>
   );
 };
-export default SectionWrapper(Footer, "footer");
+// export default Footer;
+export default SectionWapper_contact(Footer, "footer");
