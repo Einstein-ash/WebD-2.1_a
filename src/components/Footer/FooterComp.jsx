@@ -9,8 +9,9 @@ import emailIcon from "../../assets/images/email.png"
 
 import githubIcon from "../../assets/images/github.png"
 import { emrlogo } from '../../assets';
+import { SectionWrapper } from "../../hoc";
 
-const FacultyCard = () => {
+const Footer = () => {
  
   return (
 
@@ -94,4 +95,4 @@ const FacultyCard = () => {
     </div>
   );
 };
-export default FacultyCard;
+export default SectionWrapper(Footer, "footer");

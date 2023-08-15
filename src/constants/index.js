@@ -9,16 +9,19 @@ export const navLinks = [
    {
     id: "hero",
     title: "Home",
-    path : '/'
+    path : '/',
+    componentId : "hero"
   },
   
   {
-    id: "about",
+
     title: "Links",
+    componentId : "tablinks"
   },
   {
-    id: "contact",
+  
     title: "Contact",
+    componentId : "footer"
   },
 ];
 
