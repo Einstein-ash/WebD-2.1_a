@@ -99,7 +99,7 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(nav.title);
-                    handleButtonClick("nav.componentId");
+                    handleButtonClick(nav.componentId);
                   }}
                 >
                   <span>{nav.title}</span>

@@ -44,7 +44,7 @@ export const zoomIn = (delay, duration) => {
       opacity: 0,
     },
     show: {
-      scale: 1,
+      scale: 0.8,
       opacity: 1,
       transition: {
         type: "tween",
