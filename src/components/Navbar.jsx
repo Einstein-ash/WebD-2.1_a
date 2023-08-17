@@ -1,7 +1,4 @@
 
-
-// ye scoll kr rha top pr home click krne p
-
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
@@ -31,11 +28,12 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // New function to handle all button clicks
-  const handleButtonClick = () => {
+  const handleButtonClick = (id) => {
     setActive("");
-    window.scrollTo(0, 0); // Scroll to the top
-    // window.scrollTo({id}); // Scroll to the top
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
@@ -46,40 +44,43 @@ const Navbar = () => {
         scrolled ? "bg-primaryy" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
-        {/* Home button using Link component */}
+      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to='/'
-          className='flex items-center gap-2'
-          onClick={handleButtonClick} // Handle button click
+          to="/"
+          className="flex items-center gap-2"
+          onClick={() => handleButtonClick("homeComponentId")}
         >
-          <img src={logo} alt='logo' className='w-16 h-13 ' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-             &nbsp; <span className='sm:block hidden'> </span>
+          <img src={logo} alt="logo" className="w-16 h-13" />
+          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+            &nbsp;<span className="sm:block hidden"></span>
           </p>
         </Link>
 
-        <ul className='list-none hidden sm:flex flex-row gap-10'>
+
+        <ul className="list-none hidden sm:flex flex-row gap-10">
+        
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              } hover:text-white text-[18px] font-medium cursor-pointer `}
+
+              onClick={() => {
+                setActive(nav.title);
+                handleButtonClick(nav.componentId);
+              }}
             >
-              <Link to={nav.path} onClick={handleButtonClick}> {/* Handle button click */}
-                {nav.title}
-              </Link>
+              <span>{nav.title}</span>
             </li>
           ))}
         </ul>
 
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
             src={toggle ? close : menu}
-            alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
           />
 
@@ -88,7 +89,7 @@ const Navbar = () => {
               !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
@@ -98,11 +99,10 @@ const Navbar = () => {
                   onClick={() => {
                     setToggle(!toggle);
                     setActive(nav.title);
+                    handleButtonClick("nav.componentId");
                   }}
                 >
-                  <Link to={nav.path} onClick={handleButtonClick}> {/* Handle button click */}
-                    {nav.title}
-                  </Link>
+                  <span>{nav.title}</span>
                 </li>
               ))}
             </ul>
@@ -114,14 +114,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-
-
-
-
-
-
-
 
 

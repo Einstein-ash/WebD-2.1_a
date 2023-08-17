@@ -21,7 +21,7 @@ const EMR_logo = () => {
 
     <mesh>
       {/* <hemisphereLight intensity={-0.4} groundColor='black' /> */}
-      <hemisphereLight intensity={-0.1} groundColor='black' />
+      <hemisphereLight intensity={-0.21} groundColor='black' />
     <spotLight
       // // position={[-2, 50, 60]}
       // position={[-70, 50, 900, ] }
@@ -50,7 +50,7 @@ const EMR_logo = () => {
 
     //  change position of logo 
       position-y={-3.5}
-      position-x={-4}
+      position-x={-3.4}
       //
 
 
