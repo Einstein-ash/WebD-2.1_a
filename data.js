@@ -12,8 +12,8 @@ import robo2 from "./src/assets/images/eventimages/robo2.jpg";
 import robo3 from "./src/assets/images/eventimages/robo3.jpg";
 import robo4 from "./src/assets/images/eventimages/robo4.jpg";
 import robo5 from "./src/assets/images/eventimages/robo5.jpg";
-import pixar2 from "./src/assets/images/eventimages/pixar2.jpg";
-import pixar3 from "./src/assets/images/eventimages/pixar3.jpg";
+import pixar2 from "./src/assets/images/eventimages/robo4.jpg";
+import pixar3 from "./src/assets/images/eventimages/robo5.jpg";
 import bit1 from "./src/assets/images/eventimages/bit1.jpg";
 
 export const robosoccor={
