@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import "../assets/css/NavBar2.css";
+import "../assets/css/Navbar2.css";
 import logo2 from "../assets/images/emr_logo.png"
+import { FaAlignRight,FaXing } from "react-icons/fa";
 
 function NavBar2() {
   const [click, setClick] = useState(false);
@@ -13,8 +14,6 @@ function NavBar2() {
         <div className="nav2-container">
           <NavLink exact to="/" className="nav2-logo flex justify-between">
           <img src={logo2} alt="logo" className="w-16 h-13" />
-      
-            <i className="fas fa-code"></i>
           </NavLink>
 
           <ul className={click ? "nav2-menu active" : "nav2-menu"}>
@@ -98,7 +97,8 @@ function NavBar2() {
             
           </ul>
           <div className="nav2-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+            {click ? <FaXing />:<FaAlignRight /> }
+            
           </div>
         </div>
       </nav>
