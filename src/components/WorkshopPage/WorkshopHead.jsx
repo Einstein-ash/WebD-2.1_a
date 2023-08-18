@@ -34,10 +34,7 @@ function WorkshopHead() {
         <div className="workshop-head-text">
           <h1 className="workshop-main-head">WORKSHOPS</h1>
           <p className="workshop-main-head-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
-            corrupti commodi, dolores in optio minima est numquam quos
-            dignissimos ut ab similique quibusdam ipsum sit porro aliquam error
-            delectus voluptatibus!
+          The EMR Club has orchestrated an array of captivating workshops that delve into embedded systems and robotics. From Arduino essentials that unravel the world of microcontrollers, to advanced Raspberry Pi applications enabling multifunctional projects, their workshops cater to all skill levels. Participants grasp hands-on experience in soldering, circuit design, and sensor integration, coupled with programming languages like C/C++ and Python. The club cultivates expertise in autonomous machines through sessions on navigation algorithms, computer vision, and motor control. With a track record of dynamic workshops, EMR Club empowers enthusiasts to master the realms of embedded systems and robotics with confidence.
           </p>
         </div>
         <Carousel
