@@ -17,12 +17,16 @@
     position: absolute;
     bottom: 1%;
     width: 280px;
+    margin-bottom: 0px;
+    z-index: 2;
+    position: fixed;
   }
 
   .sponsor-page {
     max-width: 700px;
     margin: 0 auto;
     padding: 0.75rem;
+    
   }
   
   .page-header {

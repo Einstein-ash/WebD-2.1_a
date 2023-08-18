@@ -1,5 +1,5 @@
 import React from "react";
-import { motion } from "framer-motion";
+
 function NextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -8,7 +8,7 @@ function NextArrow(props) {
             style={{ ...style, background: "white", color:"transparent", borderRadius: '50%', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '4px' }}
             onClick={onClick}
         />
-    );
+    )
 
 }
 

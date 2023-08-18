@@ -1,5 +1,5 @@
 import React from "react";
-import "./aboutevents.css";
+import "../../../../../assets/css/aboutevents.css";
 const About = (props) => {
   return (
     <div className="about-wrapper">

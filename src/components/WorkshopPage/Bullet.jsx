@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../assets/css/WorkshopDetails.css";
+import "../../assets/css/WorkshopDetail.css";
 
 function Bullet({ id, name, info }) {
   const [hover, setHover] = useState(false);

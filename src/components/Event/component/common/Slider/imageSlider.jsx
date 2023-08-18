@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./imageslider.css";
+import "../../../../../assets/css/eventsimageslider.css";
 import { motion } from "framer-motion";
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setcurrentIndex] = useState(0);

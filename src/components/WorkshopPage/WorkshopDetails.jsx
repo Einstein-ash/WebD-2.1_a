@@ -1,6 +1,6 @@
 import React from "react";
 import Bullet from "./Bullet.jsx";
-import "../../assets/css/WorkshopDetails.css";
+import "../../assets/css/WorkshopDetail.css";
 
 const Workshops = ({ ws }) => {
   return (

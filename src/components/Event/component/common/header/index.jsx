@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./header.css";
+import "../../../../../assets/css/eventheader.css";
 import { motion } from "framer-motion";
 
 const tabs = [
@@ -30,7 +30,7 @@ function Header(props) {
   return (
     <div className="header">
       <motion.div
-        // whileTap={{ scale: 0.75 }}
+        whileTap={{ scale: 0.75 }}
         onClick={() => {
           setisMenu(!isMenu);
         }}
