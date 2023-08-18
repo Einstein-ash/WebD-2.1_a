@@ -9,7 +9,7 @@ import ig from '../../assets/images/insta.png';
 
 import '../../assets/css/BlogCard.css';
 
-const BlogCard = ({ title, date, instagramLink, content }) => {
+const BlogCard = ({ title, date, instagramLink, content, more }) => {
     const [likes, setLikes] = useState(0);
     const [dislikes, setDislikes] = useState(0);
     const [clicked_l, setClicked_l] = useState(false);
@@ -63,6 +63,7 @@ const BlogCard = ({ title, date, instagramLink, content }) => {
         <div className="blog-card">
           <div className="blog-content">
             <p className="blog-para">{content}</p>
+            <p className="blog-para">{more}</p>
           </div>
         </div>
 
