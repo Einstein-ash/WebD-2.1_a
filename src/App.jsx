@@ -21,7 +21,7 @@ const App = () => {
   return (
     <BrowserRouter>
 <ScrollToTop />
-<Navbar/>
+{/* <Navbar/> */}
 <StarsCanvas /> 
 
       <Routes>

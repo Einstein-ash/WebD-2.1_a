@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import roboImg from '../../assets/images/robo.png';
 import '../../assets/css/Sponsor.css';
+import NavBar2 from '../Navbar2';
 
 const SponsorPage = () => {
 
@@ -17,8 +18,11 @@ const SponsorPage = () => {
 
 
   return (
+    <div>
+        
+        
     <div className="sponsor">
-
+    <NavBar2 />
     {isWideScreen && ( 
         <div className="sponsor-image">
             <img className="sponsor-robo" src={roboImg} alt="roboImg" />
@@ -55,6 +59,7 @@ const SponsorPage = () => {
         <p>Contact us at: <a className="sponsor-mail" href="mailto:emr@nitkkr.ac.in">emr@nitkkr.ac.in</a></p>
       </footer>
     </div>
+ </div>
  </div>
   )
 };
