@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import data from "./data.jsx";
-import Workshops from "./WorkshopDetails";
+import Workshops from "./WorkshopDetails.jsx";
 import NavBar2 from "../Navbar2.jsx";
-import "../../assets/css/WorkshopDetails.css";
+import "../../assets/css/WorkshopDetail.css";
+import StarsCanvas from "../canvas/Stars.jsx";
 
 const WorkshopDetail = () => {
   const [ws, setws] = useState(data);
@@ -14,7 +15,11 @@ const WorkshopDetail = () => {
   return (
     <div className="App">
       <NavBar2 />
-      <Workshops ws={ws} showworkshop={showworkshop} />
+
+      <div className="relative z-0 bg-primary">
+        <Workshops ws={ws} showworkshop={showworkshop} />
+        <StarsCanvas />
+      </div>
     </div>
   );
 };

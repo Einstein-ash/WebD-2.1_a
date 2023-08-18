@@ -1,7 +1,6 @@
 import React from "react";
 import WorkshopHead from "../components/WorkshopPage/WorkshopHead";
 import CurrentWorkshop from "../components/WorkshopPage/CurrentWorkshop";
-import WorkshopDetail from "../components/WorkshopPage/WorkshopDetail";
 import NavBar2 from "../components/Navbar2";
 function WorkshopPage() {
   return (

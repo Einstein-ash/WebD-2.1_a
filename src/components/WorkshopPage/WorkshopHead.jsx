@@ -5,6 +5,7 @@ import img1 from "../../assets/images/WorkshopPage/carousel1.jpg";
 import img2 from "../../assets/images/WorkshopPage/carousel2.jpg";
 import img3 from "../../assets/images/WorkshopPage/carousel3.jpg";
 import { useNavigate } from "react-router-dom";
+// import { Route } from "react-router-dom";
 
 function WorkshopHead() {
   const navigate = useNavigate();
