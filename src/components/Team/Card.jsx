@@ -18,6 +18,9 @@ import img8 from "../../assets/images/ProfileImage/anant_gwari.jpg";
 import img9 from "../../assets/images/ProfileImage/Deepan - Deepan Adak.jpg";
 import img10 from "../../assets/images/ProfileImage/Prashant_Rai.jpg";
 import img11 from "../../assets/images/ProfileImage/IMG_20230318_140731 - PI-02-012Gaurav.jpg";
+import img12 from "../../assets/images/ProfileImage/IMG_7687_jpg - ARINA.jpeg";
+import img13 from "../../assets/images/ProfileImage/IMG_20230819_122107 - SAKET JASUJA.jpg";
+
 const cardData = [
   {
     name: "Priyanshu Narwaria",
@@ -108,6 +111,22 @@ const cardData = [
     image: img11,
     role: "Recent Tech Head",
   },
+  {
+    name: "Arina  ",
+    insta: "https://www.instagram.com/arina_halwasia/",
+    linkedin: "https://www.linkedin.com/in/arina-halwasia/",
+    github: "https://github.com/Arinahalwasia",
+    image: img12,
+    role: "Embedded Head",
+  },
+  {
+    name: "Saket Jasuja ",
+    insta: "https://instagram.com/jasujasakett_?utm_source=qr&igshid=ZDc4ODBmNjlmNQ%3D%3D",
+    linkedin: "https://www.linkedin.com/in/saket-jasuja-4888b4191",
+    github: "https://github.com/Saket0303",
+    image: img13,
+    role: "Member",
+  }
 ];
 
 const Card = () => {
