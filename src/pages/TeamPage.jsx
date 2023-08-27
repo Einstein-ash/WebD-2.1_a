@@ -1,6 +1,7 @@
 import React from 'react'
 // import FacultyCard from "../components/Faculty/FacultyCard"
 import Card from '../components/Team/Card'
+import NavBar2 from '../components/Navbar2';
 import {
     StarsCanvas,
   
@@ -22,7 +23,7 @@ function TeamPage() {
 
 <div>
 
-     
+        <NavBar2 />
         <div className="relative z-0 bg-primary">
             <Card />
         {/* <Navbar /> */}

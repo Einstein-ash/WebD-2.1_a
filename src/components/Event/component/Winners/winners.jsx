@@ -1,15 +1,16 @@
 import React from "react";
-import "./winner.css";
+import "../../../../assets/css/winner.css";
 import Slider from "react-slick";
-import NextArrow from "../common/carousel/nextArrow";
-import PrevArrow from "../common/carousel/prevArrow";
+// import NextArrow from "../common/carousel/nextArrow";
+// import PrevArrow from "../common/carousel/prevArrow";
 import { motion } from "framer-motion";
 const settings = {
   infinite: false,
   slidesToShow: 4,
   slidesToScroll: 1,
-  nextArrow: <NextArrow />,
-  prevArrow: <PrevArrow />,
+  // nextArrow: <NextArrow />,
+  // ...
+  // prevArrow: <PrevArrow />,
   responsive: [
     {
       breakpoint: 768,
@@ -28,7 +29,6 @@ const settings = {
 
 function Winners({ list }) {
   return (
-    
     <div className="collection-wrapper">
       <div className="max-width collection">
         <div className="collection-title"> Winners</div>

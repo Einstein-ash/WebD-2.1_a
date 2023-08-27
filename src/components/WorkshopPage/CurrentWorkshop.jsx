@@ -20,9 +20,7 @@ export default function CurrentWorkshop() {
             <div>
               <h1 className="current-workshop-title">Embedded Workshop</h1>
               <p className="current-workshop-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deserunt perferendis beatae vel laboriosam aliquid magni
-                voluptates.
+              The Embedded Workshop offers practical learning, covering microcontrollers, circuit design, programming, and sensor integration, fostering hands-on expertise.
               </p>
               <p className="current-workshop-description">
                 <b>Team Size :</b> 4
