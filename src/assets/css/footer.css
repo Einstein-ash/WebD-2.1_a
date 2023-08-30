@@ -146,6 +146,25 @@ height: 100px;
     }
 
   }
+
+  @media (min-width: 270px) and (max-width: 380px) {
+    .copyright{
+        justify-content: center ;
+        align-items: center;
+        display: flex;
+        font-size:  0.4rem;
+     
+    }
+  }
+  @media (min-width: 150px) and (max-width: 270px) {
+    .copyright{
+        justify-content: center ;
+        align-items: center;
+        display: flex;
+        font-size:  0.3rem;
+     
+    }
+  }
   
   /* Medium Devices (Tablets and Small Laptops) */
   @media (min-width: 600px) and (max-width: 1023px) {

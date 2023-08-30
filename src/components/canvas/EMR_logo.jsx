@@ -90,7 +90,7 @@ const EMR_logo_canvas = () => {
         {/* <Suspense fallback={<CanvasLoader2 />}> */}
         <OrbitControls
           autoRotate
-          autoRotateSpeed={6}
+          autoRotateSpeed={7}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}

@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon, path }) => {
   return (
     <Tilt className='xs:w-[250px] w-full  '>
       <motion.div
-        variants={fadeIn("right", "spring", index * 0.5, 0.75)}
+        variants={fadeIn("right", "spring", index * 0.2, 0.6)}
         className=' green-pink-gradient p-[1px] rounded-[20px] shadow-card'
         onClick={handleCardClick} // Call the handleCardClick function on click
       >
