@@ -1,9 +1,9 @@
 import React from "react";
 import "../../assets/css/WorkshopPage.css";
-import image from "../../assets/images/WorkshopPage/currworkshopimg.jpg";
+import image from "../../assets/images/dip_fee.png";
 export default function CurrentWorkshop() {
   const visible = true; // Change to false to remove current workshop Element...
-  const Gformlink = ""; // Link to regeistration form
+  const Gformlink = "https://docs.google.com/forms/d/e/1FAIpQLScYHejNj8lWYlgiqxrZlVRqbA56Jv9vypucfDMssFy3_JOJnw/viewform"; // Link to regeistration form
   return (
     visible && (
       <div className="current-workshop-container">
@@ -20,16 +20,26 @@ export default function CurrentWorkshop() {
             <div>
               <h1 className="current-workshop-title">Embedded Workshop</h1>
               <p className="current-workshop-description">
-              The Embedded Workshop offers practical learning, covering microcontrollers, circuit design, programming, and sensor integration, fostering hands-on expertise.
+              🌟 Unlock the Magic of Pixels: Join Our Digital Image Processing Workshop! 📸
+
+Are you ready to delve into the captivating world of pixels, filters, and the art of transforming ordinary images into extraordinary visual masterpieces? 🖼️
+
+ 💥What to Expect:
+• Learn the fundamentals of image enhancement, restoration, and manipulation.
+• Learn the tech stack Python, Numpy and OpenCV
+• Unravel the secrets behind  powerful image filtering techniques.
+</p>
+              <p className="current-workshop-description">
+                <b>Workshop Date :</b> 15/9/23 - 17/9/23
               </p>
               <p className="current-workshop-description">
-                <b>Team Size :</b> 4
+                <b>Time :</b> 5:30 pm
               </p>
               <p className="current-workshop-description">
-                <b>Workshop Date :</b> 18/7/23 - 20/7/23
+                <b>Location :</b> L - Block
               </p>
               <p className="current-workshop-description">
-                <b>Cost per member :</b> 1500 Rs
+                <b>Cost per member :</b> Rs 100/-
               </p>
             </div>
             <a
