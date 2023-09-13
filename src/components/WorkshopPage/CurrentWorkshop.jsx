@@ -14,11 +14,11 @@ export default function CurrentWorkshop() {
           <img
             src={image}
             alt="Current Workshop Image"
-            className="current-workshop-img"
+            className="current-workshop-img "
           />
           <div className="current-workshop-info">
             <div>
-              <h1 className="current-workshop-title">Embedded Workshop</h1>
+              <h1 className="current-workshop-title">DIP Workshop</h1>
               <p className="current-workshop-description">
               🌟 Unlock the Magic of Pixels: Join Our Digital Image Processing Workshop! 📸
 
