@@ -145,14 +145,17 @@
   font-family: "IBM Plex Sans", sans-serif;
 }
 .current-workshop-img {
-  max-width: 40%;
-  object-fit: cover;
+  max-width: 100%;
+  object-fit: fill;
+  overflow: hidden;
   border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .current-workshop-info {
   padding: 20px 30px 10px 30px;
-  max-width: 60%;
+  max-width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
