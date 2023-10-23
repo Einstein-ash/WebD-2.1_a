@@ -1,9 +1,9 @@
 import React from "react";
 import "../../assets/css/WorkshopPage.css";
-import image from "../../assets/images/dip_fee.png";
+import image from "../../assets/images/Embedded_workshop_2k23_without_blur.jpg";
 export default function CurrentWorkshop() {
   const visible = true; // Change to false to remove current workshop Element...
-  const Gformlink = "https://docs.google.com/forms/d/e/1FAIpQLScYHejNj8lWYlgiqxrZlVRqbA56Jv9vypucfDMssFy3_JOJnw/viewform"; // Link to regeistration form
+  const Gformlink = "https://forms.gle/ca4cTEqgTzMxezDW8"; // Link to regeistration form
   return (
     visible && (
       <div className="current-workshop-container">
@@ -20,14 +20,24 @@ export default function CurrentWorkshop() {
             <div>
               <h1 className="current-workshop-title">DIP Workshop</h1>
               <p className="current-workshop-description">
-              🌟 Unlock the Magic of Pixels: Join Our Digital Image Processing Workshop! 📸
-
-Are you ready to delve into the captivating world of pixels, filters, and the art of transforming ordinary images into extraordinary visual masterpieces? 🖼️
-
- 💥What to Expect:
-• Learn the fundamentals of image enhancement, restoration, and manipulation.
-• Learn the tech stack Python, Numpy and OpenCV
-• Unravel the secrets behind  powerful image filtering techniques.
+              Get ready for a symphony of code 👨‍💻 and circuits 🤖 as the EmR Club of NIT Kurukshetra proudly presents its much-anticipated Robotics Embedded Systems workshop: "RoboGesture: Exploring Robotics in Action"! 🚀
+<br />
+<br />
+🌟 What to Expect:
+Get ready to immerse yourself in the enchanting world of Robotics Engineering, where you'll unlock the potential of Embedded C, Arduino, Analog Circuits, Simulators, and Sensors. Our workshop is carefully crafted to accommodate participants of all skill levels, whether you're a curious beginner or an experienced enthusiast.
+<br />
+<br />
+🤖 Hands-on Experience:
+One of the highlights of this workshop is the opportunity to put your knowledge into action. You won't just learn theory; you'll dive into the practical side of things. In fact, you'll have the chance to create not one, but two exciting robotics embedded systems projects. 💡🤖🚀
+<br />
+<br />
+📅 Date: 27-29th October
+📍 Venue: ED Hall
+<br />
+<br />
+🔥 Workshop Highlights:
+- Gain a deep understanding of Embedded C programming.
+- Dive into the world of Arduino and microcontroller-
 </p>
               <p className="current-workshop-description">
                 <b>Workshop Date :</b> 15/9/23 - 17/9/23
